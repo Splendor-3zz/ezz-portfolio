@@ -1,9 +1,13 @@
-import React from 'react'
+import Header from '@/components/header/Header'
+import Home from '@/components/home/Home'
+import Skills from '@/components/skills/Skills'
 
 const page = () => {
   return (
     <div>
-      <h1>jp</h1>
+      <Header/>
+      <Home/>
+      <Skills/>
     </div>
   )
 }
