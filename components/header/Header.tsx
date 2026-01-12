@@ -10,8 +10,8 @@ const Header = () => {
       </div>
       <div className='flex justify-center items-center gap-7'>
         <Link href={"/about"}>About</Link>
-        <Link href={"/project"}>Project</Link>
         <Link href={"/skills"}>Skills</Link>
+        <Link href={"/project"}>Project</Link>
         <Link href={"/contact"}>Contact</Link>
       </div>
       <div className="flex justify-center items-center">

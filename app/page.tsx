@@ -1,5 +1,6 @@
 import Header from '@/components/header/Header'
 import Home from '@/components/home/Home'
+import Project from '@/components/project/Project'
 import Skills from '@/components/skills/Skills'
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
       <Header/>
       <Home/>
       <Skills/>
+      <Project/>
     </div>
   )
 }
