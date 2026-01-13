@@ -5,7 +5,7 @@ import { SiFramework } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-black space-y-3 py-25">
+    <div className="flex flex-col justify-center items-center bg-black space-y-3 py-20">
       <h1 className="text-2xl">My Expertise</h1>
       <p className="text-xl text-center px-10 sm:px-20 ">
         A summary of my technical skills and language proficiencies.
@@ -15,7 +15,8 @@ const Skills = () => {
         <div className="space-y-10">
 
           <div className="sm:flex w-full space-x-10 space-y-10 sm:space-y-0">
-            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm shadow-gray-300 border-2 border-gray-500 w-full rounded">
+            
+            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm border-2 w-full rounded bg-white text-emerald-800">
               <div className="flex items-center gap-3">
                 <FaCode className="text-xl" />
                 <h1 className="text-xl">Languages</h1>
@@ -38,7 +39,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm shadow-gray-300 border-2 border-gray-500 w-full rounded">
+            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm border-2 w-full rounded bg-white text-emerald-800">
               <div className="flex items-center gap-3">
                 <SiFramework className="text-xl" />
                 <h1 className="text-xl">Frameworks & Libraries</h1>
@@ -59,7 +60,7 @@ const Skills = () => {
           </div>
 
           <div className="sm:flex w-full space-x-10 space-y-10 sm:space-y-0">
-            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm shadow-gray-300 border-2 border-gray-500 w-full rounded">
+            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm border-2 w-full rounded bg-white text-emerald-800">
               <div className="flex items-center gap-3">
                 <FaDatabase  className="text-l"/>
                 <h1 className="text-xl">Databases & Tools</h1>
@@ -74,7 +75,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm shadow-gray-300 border-2 border-gray-500 w-full rounded">
+            <div className="flex flex-col gap-2 pl-5 py-5 shadow-sm border-2  w-full rounded bg-white text-emerald-800">
               <div className="flex items-center gap-3">
                 <IoLanguage className="text-xl" />
                 <h1 className="text-xl">Languages</h1>
