@@ -1,17 +1,18 @@
+import { forwardRef } from "react";
 import { FaCode, FaDatabase } from "react-icons/fa6";
 import { GoDotFill } from "react-icons/go";
 import { IoLanguage } from "react-icons/io5";
 import { SiFramework } from "react-icons/si";
 
-const Skills = () => {
+const Skills = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <div className="flex flex-col justify-center items-center bg-black space-y-3 py-20">
+    <div className="flex flex-col justify-center items-center bg-black space-y-3 py-20" ref={ref}>
       <h1 className="text-2xl">My Expertise</h1>
       <p className="text-xl text-center px-10 sm:px-20 ">
         A summary of my technical skills and language proficiencies.
       </p>
 
-      <div className="w-full mt-10 px-25">
+      <div className="w-full mt-10 px-5 sm:px-25">
         <div className="space-y-10">
 
           <div className="sm:flex w-full space-x-10 space-y-10 sm:space-y-0">
@@ -99,6 +100,8 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+});
+
+Skills.displayName = "Skills"
 
 export default Skills;
