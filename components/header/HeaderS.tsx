@@ -19,14 +19,14 @@ export function HeaderS({onAboutClick, onSkillsClick, onProjectClick,onContactCl
   return (
     <div className="fixed z-20 flex justify-between items-center w-full p-3 bg-black top-0">
       <div className="flex justify-center items-center gap-3 text-5xl">
-        <FaCode className="bg-emerald-900 p-2 rounded-md" />
-        <h1 className="text-xl">Ezzaldeen</h1>
+        <FaCode className="text-white bg-emerald-900 p-2 rounded-md" />
+        <h1 className="text-white text-xl">Ezzaldeen</h1>
       </div>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button className=" hover:text-white hover:bg-emerald-950 border border-emerald-900 cursor-pointer"><CiMenuKebab /></Button>
+          <Button className="text-white hover:text-white hover:bg-emerald-950 border border-emerald-900 cursor-pointer"><CiMenuKebab /></Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-36 bg-emerald-950 p-0 " align="end">
+        <DropdownMenuContent className="text-white w-36 bg-emerald-950 p-0 " align="end">
           <DropdownMenuItem className="p-0.5"><button className="cursor-pointer border w-full rounded-md" onClick={onAboutClick}>About</button></DropdownMenuItem>
           <DropdownMenuItem className="p-0.5"><button className="cursor-pointer border w-full rounded-md" onClick={onSkillsClick}>Skills</button></DropdownMenuItem>
           <DropdownMenuItem className="p-0.5"><button className="cursor-pointer border w-full rounded-md" onClick={onProjectClick}>Project</button></DropdownMenuItem>

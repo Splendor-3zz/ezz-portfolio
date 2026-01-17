@@ -7,7 +7,7 @@ import { RiShareBoxFill } from "react-icons/ri";
 const MenuSystem = () => {
   const p = `Developed a full-stack menu system using Next.js and TypeScript, with a component-based, maintainable architecture. Implemented role-based access with two user types (Admin and User); admins can manage menu items and categories, while users view and interact with menus. Built secure CRUD operations using Prisma ORM and MongoDB, ensuring structured data handling and reliable persistence. Applied responsive UI patterns, input validation, and clean code practices suitable for scaling the system.`;
   return (
-    <div className="pb-20 pt-30 bg-emerald-600 px-5 sm:px-30">
+    <div className="text-white pb-20 pt-30 bg-emerald-600 px-5 sm:px-30">
       <h1 className="text-2xl sm:text-5xl mb-5">Menu Management System</h1>
       <img src="/menuitemss.png" alt="menu" className="rounded-md" />
       <div className="my-10">

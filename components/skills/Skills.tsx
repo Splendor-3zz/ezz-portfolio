@@ -6,7 +6,7 @@ import { SiFramework } from "react-icons/si";
 
 const Skills = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <div className="flex flex-col justify-center items-center bg-black space-y-3 py-20" ref={ref}>
+    <div className="text-white flex flex-col justify-center items-center bg-black space-y-3 py-20" ref={ref}>
       <h1 className="text-2xl">My Expertise</h1>
       <p className="text-xl text-center px-10 sm:px-20 ">
         A summary of my technical skills and language proficiencies.

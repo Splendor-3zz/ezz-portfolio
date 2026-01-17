@@ -32,12 +32,12 @@ I hold a Bachelor’s degree in Software Engineering and have completed a Fronte
         </div>
         <div className="text-start w-full space-y-6 px-10 pb-20">
             <div className="text-center space-y-3">
-                <h1 className="text-2xl sm:text-4xl">Ezzaldeen Al-shaibani</h1>
-                <h2 className="text-xl sm:text-2xl">Full-Stack Developer</h2>
+                <h1 className="text-white text-2xl sm:text-4xl">Ezzaldeen Al-shaibani</h1>
+                <h2 className="text-white text-xl sm:text-2xl">Full-Stack Developer</h2>
             </div>
-            <p className="text-sm sm:text-l sm:px-10 md:px-30">{about}</p>
+            <p className="text-white text-sm sm:text-l sm:px-10 md:px-30">{about}</p>
             <div className="flex justify-center gap-x-2">
-                <Button onClick={onWorkClick} className="bg-emerald-950 hover:bg-emerald-900 cursor-pointer">
+                <Button onClick={onWorkClick} className="text-white bg-emerald-950 hover:bg-emerald-900 cursor-pointer">
                     View My work
                 </Button>
                 <Button onClick={onContactClick} className="bg-white hover:bg-emerald-200 text-emerald-950 cursor-pointer">

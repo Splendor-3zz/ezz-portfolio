@@ -6,7 +6,7 @@ const Project = forwardRef<HTMLDivElement>((_, ref) => {
     return(
         <div className=" flex flex-col justify-center gap-y-10 w-full py-20 bg-emerald-500" ref={ref}>
             <div>
-                <h1 className="text-2xl text-center">My Project</h1>
+                <h1 className="text-white text-2xl text-center">My Project</h1>
             </div>
             <div className="mx-5 sm:mx-30 rounded-md bg-white text-emerald-950 shadow hover:shadow-md shadow-emerald-950">
                 <img className="rounded-t-md w-full" src="/menuitemss.png" alt="" />
